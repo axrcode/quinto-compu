@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-pelicula {
+    width: 20vw;
+    height: 40vh;
+    background-color: rgb(16, 16, 75);
+}
+
+.img-pelicula img {
+    width: 100%;
+}
+
+.contenido-informativo {
+    width: 80vw;
+    height: 40vh;
+    background-color: rgb(16, 16, 75);
+    padding: 40px;
+}
+
+.contenido-informativo .titulo-principal h1 {
+    color: white;
+    font-size: 45px;
+}
+
+.contenido-informativo .descripcion p {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
