@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* #navbar {
+    background: green;
+} */
+
+.navbar {
+    background: red;
+}
+
+.navbar .navbar-item {
+    display: inline-block;
+}
+
+.navbar-item a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
+/* .navbar-item {
+    display: block !important;
+} */
