@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor-padre 
+{
+    display: flex;  /* Redimensiona contenedores */
+    flex-wrap: wrap;    /* Redimensiona los contenedores sobre el ancho de la pantalla */   
+}
+
+.uno {
+    background-color: green;
+    width: 100%;
+    height: 150px;
+}
+
+.dos {
+    background-color: blue;
+    width: 100%;
+    height: 150px;
+}
+
+.tres {
+    background-color: red;
+    width: 100%;
+    height: 150px;
+}
+
+.cuatro {
+    background-color: yellow;
+    width: 100%;
+    height: 150px;
+}
+
+.cinco {
+    background-color: pink;
+    width: 100%;
+    height: 150px;
+}
+
+@media (min-width: 600px) 
+{
+    .dos {
+        width: 50%;
+    }
+
+    .tres {
+        width: 50%;
+    }
+}
+
+@media (min-width: 800px)
+{
+    .uno {
+        width: 50%;
+    }
+
+    .dos {
+        width: 50%;
+    }
+
+    .tres {
+        width: 33.33%;
+    }
+
+    .cuatro {
+        width: 33.33%;
+    }
+
+    .cinco {
+        width: 33.33%;
+    }
+}
