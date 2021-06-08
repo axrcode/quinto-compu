@@ -1,0 +1,29 @@
+.contenedor-padre {
+    display: flex;  /* Redimensiona contenedores */
+    flex-wrap: wrap;    /* Redimensiona los contenedores sobre el ancho de la pantalla */   
+}
+
+.uno, .dos, .tres, .cuatro, .cinco {
+    width: 100%;
+    height: 150px;
+}
+
+.uno {
+    background-color: green;
+}
+
+.dos {
+    background-color: blue;
+}
+
+.tres {
+    background-color: red;
+}
+
+.cuatro {
+    background-color: yellow;
+}
+
+.cinco {
+    background-color: pink;
+}

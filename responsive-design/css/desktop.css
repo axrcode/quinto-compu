@@ -1,0 +1,18 @@
+.contenedor-padre {
+    width: 800px;
+    /* width: 75%; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.uno, .dos {
+    width: 50%;
+}
+
+.tres, .cuatro {
+    width: 33.33%;
+}
+
+.cinco {
+    width: 33.34%;
+}
