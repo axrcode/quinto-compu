@@ -20,8 +20,8 @@ CREATE TABLE usuarios(
     contrasenia VARCHAR(255),
     email VARCHAR(255),
     rol VARCHAR(255),
-    created_at TIMESTAMP,
-    updated_at TIMESTAMP
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
 CREATE TABLE empleados(
@@ -32,10 +32,13 @@ CREATE TABLE empleados(
     telefono VARCHAR(255),
     direccion VARCHAR(255),
     usuario_id INT,
-    created_at TIMESTAMP,
-    updated_at TIMESTAMP,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (usuario_id) REFERENCES usuarios(id)
 );
+
+-- Ver la estructura de la tabla seleccionada
+DESC usuarios;
 
 -- Borra los componentes de la BD
 -- Borrar una tabla 
